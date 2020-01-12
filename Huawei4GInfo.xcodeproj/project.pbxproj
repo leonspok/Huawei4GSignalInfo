@@ -7,29 +7,158 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E39C11D423CA345C005EE033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C11D323CA345C005EE033 /* AppDelegate.swift */; };
-		E39C11D623CA345C005EE033 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C11D523CA345C005EE033 /* ContentView.swift */; };
-		E39C11D823CA3460005EE033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39C11D723CA3460005EE033 /* Assets.xcassets */; };
-		E39C11DB23CA3460005EE033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39C11DA23CA3460005EE033 /* Preview Assets.xcassets */; };
-		E39C11DE23CA3460005EE033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39C11DC23CA3460005EE033 /* Main.storyboard */; };
+		E35DE44923CAC59F009AEC93 /* SignalInfoProvider+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35DE44823CAC59F009AEC93 /* SignalInfoProvider+Shared.swift */; };
+		E37F7A7323CAB42100FB4A65 /* PopupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F7A7223CAB42100FB4A65 /* PopupViewModel.swift */; };
+		E39C120623CA3548005EE033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C120523CA3548005EE033 /* AppDelegate.swift */; };
+		E39C120A23CA3549005EE033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39C120923CA3549005EE033 /* Assets.xcassets */; };
+		E39C120D23CA3549005EE033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39C120C23CA3549005EE033 /* Preview Assets.xcassets */; };
+		E39C121D23CA356B005EE033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C121C23CA356B005EE033 /* AppDelegate.swift */; };
+		E39C121F23CA356B005EE033 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C121E23CA356B005EE033 /* SceneDelegate.swift */; };
+		E39C122123CA356B005EE033 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C122023CA356B005EE033 /* ContentView.swift */; };
+		E39C122323CA356C005EE033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39C122223CA356C005EE033 /* Assets.xcassets */; };
+		E39C122623CA356C005EE033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39C122523CA356C005EE033 /* Preview Assets.xcassets */; };
+		E39C122923CA356C005EE033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39C122723CA356C005EE033 /* LaunchScreen.storyboard */; };
+		E39C123523CA35E0005EE033 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39C123423CA35E0005EE033 /* NotificationCenter.framework */; };
+		E39C123823CA35E0005EE033 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C123723CA35E0005EE033 /* TodayViewController.swift */; };
+		E39C123B23CA35E0005EE033 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39C123923CA35E0005EE033 /* MainInterface.storyboard */; };
+		E39C123F23CA35E0005EE033 /* Huawei4GSignalInfo-iOSToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E39C123223CA35E0005EE033 /* Huawei4GSignalInfo-iOSToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E39C129D23CA527C005EE033 /* Huawei4GSignalInfoCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39C129C23CA5272005EE033 /* Huawei4GSignalInfoCore.framework */; };
+		E39C129E23CA527C005EE033 /* Huawei4GSignalInfoCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E39C129C23CA5272005EE033 /* Huawei4GSignalInfoCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E39C129F23CA5283005EE033 /* Huawei4GSignalInfoCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39C125E23CA3763005EE033 /* Huawei4GSignalInfoCore.framework */; };
+		E39C12A023CA5283005EE033 /* Huawei4GSignalInfoCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E39C125E23CA3763005EE033 /* Huawei4GSignalInfoCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E39C12A223CA5289005EE033 /* Huawei4GSignalInfoCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39C125E23CA3763005EE033 /* Huawei4GSignalInfoCore.framework */; };
+		E39C12A323CA5289005EE033 /* Huawei4GSignalInfoCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E39C125E23CA3763005EE033 /* Huawei4GSignalInfoCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E3A29C8723CA94BE00E7EA08 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A29C8623CA94BE00E7EA08 /* MainMenu.xib */; };
+		E3A29C8B23CAA13900E7EA08 /* SignalInfoProvider+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A29C8A23CAA13900E7EA08 /* SignalInfoProvider+Shared.swift */; };
+		E3A29C8D23CAAA7600E7EA08 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A29C8C23CAAA7600E7EA08 /* PopupView.swift */; };
+		E3A29C8F23CAAC7F00E7EA08 /* ConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A29C8E23CAAC7F00E7EA08 /* ConfigurationView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E39C123D23CA35E0005EE033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E39C11C823CA345B005EE033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E39C123123CA35E0005EE033;
+			remoteInfo = "Huawei4GSignalInfo-iOSToday";
+		};
+		E39C125D23CA3763005EE033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E39C125923CA3762005EE033 /* Huawei4GSignalInfoCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E39C124E23CA3762005EE033;
+			remoteInfo = Huawei4GSignalInfoCore;
+		};
+		E39C129B23CA5272005EE033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E39C125923CA3762005EE033 /* Huawei4GSignalInfoCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E39C127623CA37F8005EE033;
+			remoteInfo = "Huawei4GSignalInfoCore-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E39C124323CA35E0005EE033 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E39C123F23CA35E0005EE033 /* Huawei4GSignalInfo-iOSToday.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C127023CA37C1005EE033 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E39C129E23CA527C005EE033 /* Huawei4GSignalInfoCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C12A123CA5283005EE033 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E39C12A023CA5283005EE033 /* Huawei4GSignalInfoCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C12A423CA5289005EE033 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E39C12A323CA5289005EE033 /* Huawei4GSignalInfoCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		E39C11D023CA345C005EE033 /* Huawei4GInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huawei4GInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E39C11D323CA345C005EE033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E39C11D523CA345C005EE033 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E39C11D723CA3460005EE033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E39C11DA23CA3460005EE033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E39C11DD23CA3460005EE033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E39C11DF23CA3460005EE033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E39C11E023CA3460005EE033 /* Huawei4GInfo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Huawei4GInfo.entitlements; sourceTree = "<group>"; };
+		E35DE44823CAC59F009AEC93 /* SignalInfoProvider+Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignalInfoProvider+Shared.swift"; sourceTree = "<group>"; };
+		E37F7A7223CAB42100FB4A65 /* PopupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewModel.swift; sourceTree = "<group>"; };
+		E37F7A7823CAC4D600FB4A65 /* Huawei4GSignalInfo-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Huawei4GSignalInfo-iOS.entitlements"; sourceTree = "<group>"; };
+		E37F7A7923CAC50100FB4A65 /* Huawei4GSignalInfo-iOSToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Huawei4GSignalInfo-iOSToday.entitlements"; sourceTree = "<group>"; };
+		E39C120323CA3548005EE033 /* Huawei4GSignalInfo-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huawei4GSignalInfo-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39C120523CA3548005EE033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E39C120923CA3549005EE033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E39C120C23CA3549005EE033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E39C121123CA3549005EE033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39C121223CA3549005EE033 /* Huawei4GSignalInfo_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Huawei4GSignalInfo_Mac.entitlements; sourceTree = "<group>"; };
+		E39C121A23CA356B005EE033 /* Huawei4GSignalInfo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huawei4GSignalInfo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39C121C23CA356B005EE033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E39C121E23CA356B005EE033 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E39C122023CA356B005EE033 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E39C122223CA356C005EE033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E39C122523CA356C005EE033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E39C122823CA356C005EE033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E39C122A23CA356C005EE033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39C123223CA35E0005EE033 /* Huawei4GSignalInfo-iOSToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Huawei4GSignalInfo-iOSToday.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39C123423CA35E0005EE033 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		E39C123723CA35E0005EE033 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		E39C123A23CA35E0005EE033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		E39C123C23CA35E0005EE033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39C125923CA3762005EE033 /* Huawei4GSignalInfoCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Huawei4GSignalInfoCore.xcodeproj; path = Huawei4GSignalInfoCore/Huawei4GSignalInfoCore.xcodeproj; sourceTree = "<group>"; };
+		E3A29C8623CA94BE00E7EA08 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		E3A29C8A23CAA13900E7EA08 /* SignalInfoProvider+Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignalInfoProvider+Shared.swift"; sourceTree = "<group>"; };
+		E3A29C8C23CAAA7600E7EA08 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		E3A29C8E23CAAC7F00E7EA08 /* ConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E39C11CD23CA345C005EE033 /* Frameworks */ = {
+		E39C120023CA3548005EE033 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E39C129D23CA527C005EE033 /* Huawei4GSignalInfoCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C121723CA356B005EE033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C129F23CA5283005EE033 /* Huawei4GSignalInfoCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C122F23CA35E0005EE033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C123523CA35E0005EE033 /* NotificationCenter.framework in Frameworks */,
+				E39C12A223CA5289005EE033 /* Huawei4GSignalInfoCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +168,11 @@
 		E39C11C723CA345B005EE033 = {
 			isa = PBXGroup;
 			children = (
-				E39C11D223CA345C005EE033 /* Huawei4GInfo */,
+				E39C11E623CA3478005EE033 /* Dependencies */,
+				E39C120423CA3548005EE033 /* Huawei4GSignalInfo-Mac */,
+				E39C121B23CA356B005EE033 /* Huawei4GSignalInfo-iOS */,
+				E39C123623CA35E0005EE033 /* Huawei4GSignalInfo-iOSToday */,
+				E39C123323CA35E0005EE033 /* Frameworks */,
 				E39C11D123CA345C005EE033 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,52 +180,156 @@
 		E39C11D123CA345C005EE033 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E39C11D023CA345C005EE033 /* Huawei4GInfo.app */,
+				E39C120323CA3548005EE033 /* Huawei4GSignalInfo-Mac.app */,
+				E39C121A23CA356B005EE033 /* Huawei4GSignalInfo-iOS.app */,
+				E39C123223CA35E0005EE033 /* Huawei4GSignalInfo-iOSToday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E39C11D223CA345C005EE033 /* Huawei4GInfo */ = {
+		E39C11E623CA3478005EE033 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				E39C11D323CA345C005EE033 /* AppDelegate.swift */,
-				E39C11D523CA345C005EE033 /* ContentView.swift */,
-				E39C11D723CA3460005EE033 /* Assets.xcassets */,
-				E39C11DC23CA3460005EE033 /* Main.storyboard */,
-				E39C11DF23CA3460005EE033 /* Info.plist */,
-				E39C11E023CA3460005EE033 /* Huawei4GInfo.entitlements */,
-				E39C11D923CA3460005EE033 /* Preview Content */,
+				E39C125923CA3762005EE033 /* Huawei4GSignalInfoCore.xcodeproj */,
 			);
-			path = Huawei4GInfo;
+			path = Dependencies;
 			sourceTree = "<group>";
 		};
-		E39C11D923CA3460005EE033 /* Preview Content */ = {
+		E39C120423CA3548005EE033 /* Huawei4GSignalInfo-Mac */ = {
 			isa = PBXGroup;
 			children = (
-				E39C11DA23CA3460005EE033 /* Preview Assets.xcassets */,
+				E3A29C8C23CAAA7600E7EA08 /* PopupView.swift */,
+				E37F7A7223CAB42100FB4A65 /* PopupViewModel.swift */,
+				E3A29C8E23CAAC7F00E7EA08 /* ConfigurationView.swift */,
+				E39C120523CA3548005EE033 /* AppDelegate.swift */,
+				E3A29C8623CA94BE00E7EA08 /* MainMenu.xib */,
+				E39C120923CA3549005EE033 /* Assets.xcassets */,
+				E39C121123CA3549005EE033 /* Info.plist */,
+				E39C121223CA3549005EE033 /* Huawei4GSignalInfo_Mac.entitlements */,
+				E39C120B23CA3549005EE033 /* Preview Content */,
+			);
+			path = "Huawei4GSignalInfo-Mac";
+			sourceTree = "<group>";
+		};
+		E39C120B23CA3549005EE033 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E39C120C23CA3549005EE033 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E39C121B23CA356B005EE033 /* Huawei4GSignalInfo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E37F7A7823CAC4D600FB4A65 /* Huawei4GSignalInfo-iOS.entitlements */,
+				E39C121C23CA356B005EE033 /* AppDelegate.swift */,
+				E39C121E23CA356B005EE033 /* SceneDelegate.swift */,
+				E39C122023CA356B005EE033 /* ContentView.swift */,
+				E3A29C8A23CAA13900E7EA08 /* SignalInfoProvider+Shared.swift */,
+				E39C122223CA356C005EE033 /* Assets.xcassets */,
+				E39C122723CA356C005EE033 /* LaunchScreen.storyboard */,
+				E39C122A23CA356C005EE033 /* Info.plist */,
+				E39C122423CA356C005EE033 /* Preview Content */,
+			);
+			path = "Huawei4GSignalInfo-iOS";
+			sourceTree = "<group>";
+		};
+		E39C122423CA356C005EE033 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E39C122523CA356C005EE033 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E39C123323CA35E0005EE033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E39C123423CA35E0005EE033 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E39C123623CA35E0005EE033 /* Huawei4GSignalInfo-iOSToday */ = {
+			isa = PBXGroup;
+			children = (
+				E37F7A7923CAC50100FB4A65 /* Huawei4GSignalInfo-iOSToday.entitlements */,
+				E39C123723CA35E0005EE033 /* TodayViewController.swift */,
+				E35DE44823CAC59F009AEC93 /* SignalInfoProvider+Shared.swift */,
+				E39C123923CA35E0005EE033 /* MainInterface.storyboard */,
+				E39C123C23CA35E0005EE033 /* Info.plist */,
+			);
+			path = "Huawei4GSignalInfo-iOSToday";
+			sourceTree = "<group>";
+		};
+		E39C125A23CA3762005EE033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E39C125E23CA3763005EE033 /* Huawei4GSignalInfoCore.framework */,
+				E39C129C23CA5272005EE033 /* Huawei4GSignalInfoCore.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E39C11CF23CA345C005EE033 /* Huawei4GInfo */ = {
+		E39C120223CA3548005EE033 /* Huawei4GSignalInfo-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E39C11E323CA3460005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GInfo" */;
+			buildConfigurationList = E39C121323CA3549005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GSignalInfo-Mac" */;
 			buildPhases = (
-				E39C11CC23CA345C005EE033 /* Sources */,
-				E39C11CD23CA345C005EE033 /* Frameworks */,
-				E39C11CE23CA345C005EE033 /* Resources */,
+				E39C11FF23CA3548005EE033 /* Sources */,
+				E39C120023CA3548005EE033 /* Frameworks */,
+				E39C120123CA3548005EE033 /* Resources */,
+				E39C127023CA37C1005EE033 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Huawei4GInfo;
-			productName = Huawei4GInfo;
-			productReference = E39C11D023CA345C005EE033 /* Huawei4GInfo.app */;
+			name = "Huawei4GSignalInfo-Mac";
+			productName = "Huawei4GSignalInfo-Mac";
+			productReference = E39C120323CA3548005EE033 /* Huawei4GSignalInfo-Mac.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E39C121923CA356B005EE033 /* Huawei4GSignalInfo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E39C122B23CA356C005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GSignalInfo-iOS" */;
+			buildPhases = (
+				E39C121623CA356B005EE033 /* Sources */,
+				E39C121723CA356B005EE033 /* Frameworks */,
+				E39C121823CA356B005EE033 /* Resources */,
+				E39C124323CA35E0005EE033 /* Embed App Extensions */,
+				E39C12A123CA5283005EE033 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E39C123E23CA35E0005EE033 /* PBXTargetDependency */,
+			);
+			name = "Huawei4GSignalInfo-iOS";
+			productName = "Huawei4GSignalInfo-iOS";
+			productReference = E39C121A23CA356B005EE033 /* Huawei4GSignalInfo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E39C123123CA35E0005EE033 /* Huawei4GSignalInfo-iOSToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E39C124023CA35E0005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GSignalInfo-iOSToday" */;
+			buildPhases = (
+				E39C122E23CA35E0005EE033 /* Sources */,
+				E39C122F23CA35E0005EE033 /* Frameworks */,
+				E39C123023CA35E0005EE033 /* Resources */,
+				E39C12A423CA5289005EE033 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Huawei4GSignalInfo-iOSToday";
+			productName = "Huawei4GSignalInfo-iOSToday";
+			productReference = E39C123223CA35E0005EE033 /* Huawei4GSignalInfo-iOSToday.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -104,7 +341,13 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Igor Savelev";
 				TargetAttributes = {
-					E39C11CF23CA345C005EE033 = {
+					E39C120223CA3548005EE033 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					E39C121923CA356B005EE033 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					E39C123123CA35E0005EE033 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -120,45 +363,126 @@
 			mainGroup = E39C11C723CA345B005EE033;
 			productRefGroup = E39C11D123CA345C005EE033 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E39C125A23CA3762005EE033 /* Products */;
+					ProjectRef = E39C125923CA3762005EE033 /* Huawei4GSignalInfoCore.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				E39C11CF23CA345C005EE033 /* Huawei4GInfo */,
+				E39C120223CA3548005EE033 /* Huawei4GSignalInfo-Mac */,
+				E39C121923CA356B005EE033 /* Huawei4GSignalInfo-iOS */,
+				E39C123123CA35E0005EE033 /* Huawei4GSignalInfo-iOSToday */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		E39C125E23CA3763005EE033 /* Huawei4GSignalInfoCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Huawei4GSignalInfoCore.framework;
+			remoteRef = E39C125D23CA3763005EE033 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E39C129C23CA5272005EE033 /* Huawei4GSignalInfoCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Huawei4GSignalInfoCore.framework;
+			remoteRef = E39C129B23CA5272005EE033 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
-		E39C11CE23CA345C005EE033 /* Resources */ = {
+		E39C120123CA3548005EE033 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E39C11DE23CA3460005EE033 /* Main.storyboard in Resources */,
-				E39C11DB23CA3460005EE033 /* Preview Assets.xcassets in Resources */,
-				E39C11D823CA3460005EE033 /* Assets.xcassets in Resources */,
+				E39C120D23CA3549005EE033 /* Preview Assets.xcassets in Resources */,
+				E39C120A23CA3549005EE033 /* Assets.xcassets in Resources */,
+				E3A29C8723CA94BE00E7EA08 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C121823CA356B005EE033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C122923CA356C005EE033 /* LaunchScreen.storyboard in Resources */,
+				E39C122623CA356C005EE033 /* Preview Assets.xcassets in Resources */,
+				E39C122323CA356C005EE033 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C123023CA35E0005EE033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C123B23CA35E0005EE033 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E39C11CC23CA345C005EE033 /* Sources */ = {
+		E39C11FF23CA3548005EE033 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E39C11D623CA345C005EE033 /* ContentView.swift in Sources */,
-				E39C11D423CA345C005EE033 /* AppDelegate.swift in Sources */,
+				E3A29C8F23CAAC7F00E7EA08 /* ConfigurationView.swift in Sources */,
+				E39C120623CA3548005EE033 /* AppDelegate.swift in Sources */,
+				E3A29C8D23CAAA7600E7EA08 /* PopupView.swift in Sources */,
+				E37F7A7323CAB42100FB4A65 /* PopupViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C121623CA356B005EE033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A29C8B23CAA13900E7EA08 /* SignalInfoProvider+Shared.swift in Sources */,
+				E39C121D23CA356B005EE033 /* AppDelegate.swift in Sources */,
+				E39C121F23CA356B005EE033 /* SceneDelegate.swift in Sources */,
+				E39C122123CA356B005EE033 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C122E23CA35E0005EE033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C123823CA35E0005EE033 /* TodayViewController.swift in Sources */,
+				E35DE44923CAC59F009AEC93 /* SignalInfoProvider+Shared.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E39C123E23CA35E0005EE033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E39C123123CA35E0005EE033 /* Huawei4GSignalInfo-iOSToday */;
+			targetProxy = E39C123D23CA35E0005EE033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		E39C11DC23CA3460005EE033 /* Main.storyboard */ = {
+		E39C122723CA356C005EE033 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E39C11DD23CA3460005EE033 /* Base */,
+				E39C122823CA356C005EE033 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E39C123923CA35E0005EE033 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E39C123A23CA35E0005EE033 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -277,49 +601,149 @@
 			};
 			name = Release;
 		};
-		E39C11E423CA3460005EE033 /* Debug */ = {
+		E39C121423CA3549005EE033 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Huawei4GInfo/Huawei4GInfo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Huawei4GSignalInfo-Mac/Huawei4GSignalInfo_Mac.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Huawei4GInfo/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 10000;
+				DEVELOPMENT_ASSET_PATHS = "\"Huawei4GSignalInfo-Mac/Preview Content\"";
 				DEVELOPMENT_TEAM = 6KXZX3AW22;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Huawei4GInfo/Info.plist;
+				INFOPLIST_FILE = "Huawei4GSignalInfo-Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.leonspok.osx.Huawei4GInfo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leonspok.osx.Huawei4GSignalInfo-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		E39C11E523CA3460005EE033 /* Release */ = {
+		E39C121523CA3549005EE033 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Huawei4GInfo/Huawei4GInfo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Huawei4GSignalInfo-Mac/Huawei4GSignalInfo_Mac.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Huawei4GInfo/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 10000;
+				DEVELOPMENT_ASSET_PATHS = "\"Huawei4GSignalInfo-Mac/Preview Content\"";
 				DEVELOPMENT_TEAM = 6KXZX3AW22;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Huawei4GInfo/Info.plist;
+				INFOPLIST_FILE = "Huawei4GSignalInfo-Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.leonspok.osx.Huawei4GInfo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leonspok.osx.Huawei4GSignalInfo-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E39C122C23CA356C005EE033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Huawei4GSignalInfo-iOS/Huawei4GSignalInfo-iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10000;
+				DEVELOPMENT_ASSET_PATHS = "\"Huawei4GSignalInfo-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 6KXZX3AW22;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Huawei4GSignalInfo-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leonspok.ios.Huawei4GSignalInfo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E39C122D23CA356C005EE033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Huawei4GSignalInfo-iOS/Huawei4GSignalInfo-iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10000;
+				DEVELOPMENT_ASSET_PATHS = "\"Huawei4GSignalInfo-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 6KXZX3AW22;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Huawei4GSignalInfo-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leonspok.ios.Huawei4GSignalInfo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E39C124123CA35E0005EE033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Huawei4GSignalInfo-iOSToday/Huawei4GSignalInfo-iOSToday.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10000;
+				DEVELOPMENT_TEAM = 6KXZX3AW22;
+				INFOPLIST_FILE = "Huawei4GSignalInfo-iOSToday/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leonspok.ios.Huawei4GSignalInfo-iOS.Huawei4GSignalInfo-iOSToday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E39C124223CA35E0005EE033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Huawei4GSignalInfo-iOSToday/Huawei4GSignalInfo-iOSToday.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10000;
+				DEVELOPMENT_TEAM = 6KXZX3AW22;
+				INFOPLIST_FILE = "Huawei4GSignalInfo-iOSToday/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leonspok.ios.Huawei4GSignalInfo-iOS.Huawei4GSignalInfo-iOSToday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -335,11 +759,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E39C11E323CA3460005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GInfo" */ = {
+		E39C121323CA3549005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GSignalInfo-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E39C11E423CA3460005EE033 /* Debug */,
-				E39C11E523CA3460005EE033 /* Release */,
+				E39C121423CA3549005EE033 /* Debug */,
+				E39C121523CA3549005EE033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E39C122B23CA356C005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GSignalInfo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39C122C23CA356C005EE033 /* Debug */,
+				E39C122D23CA356C005EE033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E39C124023CA35E0005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GSignalInfo-iOSToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39C124123CA35E0005EE033 /* Debug */,
+				E39C124223CA35E0005EE033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E37F7A6F23CAB3ED00FB4A65 /* InfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F7A6E23CAB3ED00FB4A65 /* InfoViewModel.swift */; };
+		E37F7A7123CAB40A00FB4A65 /* SignalInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F7A7023CAB40A00FB4A65 /* SignalInfoViewModel.swift */; };
+		E37F7A7623CAB46B00FB4A65 /* InfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F7A6E23CAB3ED00FB4A65 /* InfoViewModel.swift */; };
+		E37F7A7723CAB46B00FB4A65 /* SignalInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F7A7023CAB40A00FB4A65 /* SignalInfoViewModel.swift */; };
+		E39C125323CA3762005EE033 /* Huawei4GSignalInfoCore_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E39C125123CA3762005EE033 /* Huawei4GSignalInfoCore_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39C127A23CA37F8005EE033 /* Huawei4GSignalInfoCore_Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = E39C127823CA37F8005EE033 /* Huawei4GSignalInfoCore_Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39C128023CA39B1005EE033 /* SignalInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C127F23CA39B1005EE033 /* SignalInfoProvider.swift */; };
+		E39C128223CA39BF005EE033 /* SignalLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128123CA39BF005EE033 /* SignalLevel.swift */; };
+		E39C128423CA3A29005EE033 /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128323CA3A29005EE033 /* Units.swift */; };
+		E39C128623CA3BB9005EE033 /* SignalLevel+SINR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128523CA3BB9005EE033 /* SignalLevel+SINR.swift */; };
+		E39C128823CA3E48005EE033 /* SignalLevel+RSSI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128723CA3E48005EE033 /* SignalLevel+RSSI.swift */; };
+		E39C128A23CA3EF4005EE033 /* SignalLevel+RSRQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128923CA3EF4005EE033 /* SignalLevel+RSRQ.swift */; };
+		E39C128C23CA3F57005EE033 /* SignalLevel+RSRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128B23CA3F57005EE033 /* SignalLevel+RSRP.swift */; };
+		E39C128E23CA461B005EE033 /* SignalInfoFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128D23CA461B005EE033 /* SignalInfoFetcher.swift */; };
+		E39C129023CA4656005EE033 /* SignalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128F23CA4656005EE033 /* SignalInfo.swift */; };
+		E39C129123CA524F005EE033 /* SignalInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C127F23CA39B1005EE033 /* SignalInfoProvider.swift */; };
+		E39C129223CA524F005EE033 /* SignalInfoFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128D23CA461B005EE033 /* SignalInfoFetcher.swift */; };
+		E39C129323CA524F005EE033 /* SignalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128F23CA4656005EE033 /* SignalInfo.swift */; };
+		E39C129423CA524F005EE033 /* SignalLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128123CA39BF005EE033 /* SignalLevel.swift */; };
+		E39C129523CA524F005EE033 /* SignalLevel+SINR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128523CA3BB9005EE033 /* SignalLevel+SINR.swift */; };
+		E39C129623CA524F005EE033 /* SignalLevel+RSSI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128723CA3E48005EE033 /* SignalLevel+RSSI.swift */; };
+		E39C129723CA524F005EE033 /* SignalLevel+RSRQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128923CA3EF4005EE033 /* SignalLevel+RSRQ.swift */; };
+		E39C129823CA524F005EE033 /* SignalLevel+RSRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128B23CA3F57005EE033 /* SignalLevel+RSRP.swift */; };
+		E39C129923CA524F005EE033 /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C128323CA3A29005EE033 /* Units.swift */; };
+		E39C12A723CA7B53005EE033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39C12A623CA7B53005EE033 /* Assets.xcassets */; };
+		E39C12A923CA7BF6005EE033 /* SignalLevel+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C12A823CA7BF6005EE033 /* SignalLevel+iOS.swift */; };
+		E39C12AC23CA7C03005EE033 /* SignalLevel+Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C12AA23CA7C00005EE033 /* SignalLevel+Mac.swift */; };
+		E39C12B223CA8038005EE033 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C12B123CA8038005EE033 /* InfoView.swift */; };
+		E39C12B323CA803B005EE033 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C12B123CA8038005EE033 /* InfoView.swift */; };
+		E39C12B523CA81F4005EE033 /* SignalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C12B423CA81F4005EE033 /* SignalInfoView.swift */; };
+		E39C12B723CA820E005EE033 /* SignalLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C12B623CA820E005EE033 /* SignalLevelView.swift */; };
+		E3A29C8123CA87FE00E7EA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39C12A623CA7B53005EE033 /* Assets.xcassets */; };
+		E3A29C8223CA890C00E7EA08 /* SignalLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C12B623CA820E005EE033 /* SignalLevelView.swift */; };
+		E3A29C8323CA924000E7EA08 /* SignalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C12B423CA81F4005EE033 /* SignalInfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E37F7A6E23CAB3ED00FB4A65 /* InfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewModel.swift; sourceTree = "<group>"; };
+		E37F7A7023CAB40A00FB4A65 /* SignalInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalInfoViewModel.swift; sourceTree = "<group>"; };
+		E39C124E23CA3762005EE033 /* Huawei4GSignalInfoCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Huawei4GSignalInfoCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39C125123CA3762005EE033 /* Huawei4GSignalInfoCore_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Huawei4GSignalInfoCore_iOS.h; sourceTree = "<group>"; };
+		E39C125223CA3762005EE033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39C127623CA37F8005EE033 /* Huawei4GSignalInfoCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Huawei4GSignalInfoCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39C127823CA37F8005EE033 /* Huawei4GSignalInfoCore_Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Huawei4GSignalInfoCore_Mac.h; sourceTree = "<group>"; };
+		E39C127923CA37F8005EE033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39C127F23CA39B1005EE033 /* SignalInfoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalInfoProvider.swift; sourceTree = "<group>"; };
+		E39C128123CA39BF005EE033 /* SignalLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalLevel.swift; sourceTree = "<group>"; };
+		E39C128323CA3A29005EE033 /* Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Units.swift; sourceTree = "<group>"; };
+		E39C128523CA3BB9005EE033 /* SignalLevel+SINR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignalLevel+SINR.swift"; sourceTree = "<group>"; };
+		E39C128723CA3E48005EE033 /* SignalLevel+RSSI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignalLevel+RSSI.swift"; sourceTree = "<group>"; };
+		E39C128923CA3EF4005EE033 /* SignalLevel+RSRQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignalLevel+RSRQ.swift"; sourceTree = "<group>"; };
+		E39C128B23CA3F57005EE033 /* SignalLevel+RSRP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignalLevel+RSRP.swift"; sourceTree = "<group>"; };
+		E39C128D23CA461B005EE033 /* SignalInfoFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalInfoFetcher.swift; sourceTree = "<group>"; };
+		E39C128F23CA4656005EE033 /* SignalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalInfo.swift; sourceTree = "<group>"; };
+		E39C12A623CA7B53005EE033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E39C12A823CA7BF6005EE033 /* SignalLevel+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignalLevel+iOS.swift"; sourceTree = "<group>"; };
+		E39C12AA23CA7C00005EE033 /* SignalLevel+Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignalLevel+Mac.swift"; sourceTree = "<group>"; };
+		E39C12B123CA8038005EE033 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		E39C12B423CA81F4005EE033 /* SignalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalInfoView.swift; sourceTree = "<group>"; };
+		E39C12B623CA820E005EE033 /* SignalLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalLevelView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E39C124B23CA3762005EE033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C127323CA37F8005EE033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E39C124423CA3762005EE033 = {
+			isa = PBXGroup;
+			children = (
+				E39C125023CA3762005EE033 /* Huawei4GSignalInfoCore-iOS */,
+				E39C127723CA37F8005EE033 /* Huawei4GSignalInfoCore-Mac */,
+				E39C127E23CA3982005EE033 /* Sources */,
+				E39C12A523CA7B38005EE033 /* Resources */,
+				E39C124F23CA3762005EE033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E39C124F23CA3762005EE033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E39C124E23CA3762005EE033 /* Huawei4GSignalInfoCore.framework */,
+				E39C127623CA37F8005EE033 /* Huawei4GSignalInfoCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E39C125023CA3762005EE033 /* Huawei4GSignalInfoCore-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E39C125123CA3762005EE033 /* Huawei4GSignalInfoCore_iOS.h */,
+				E39C125223CA3762005EE033 /* Info.plist */,
+			);
+			path = "Huawei4GSignalInfoCore-iOS";
+			sourceTree = "<group>";
+		};
+		E39C127723CA37F8005EE033 /* Huawei4GSignalInfoCore-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				E39C127823CA37F8005EE033 /* Huawei4GSignalInfoCore_Mac.h */,
+				E39C127923CA37F8005EE033 /* Info.plist */,
+			);
+			path = "Huawei4GSignalInfoCore-Mac";
+			sourceTree = "<group>";
+		};
+		E39C127E23CA3982005EE033 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E39C12AD23CA8007005EE033 /* Logic */,
+				E39C12AE23CA8010005EE033 /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E39C12A523CA7B38005EE033 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E39C12A623CA7B53005EE033 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E39C12AD23CA8007005EE033 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				E39C127F23CA39B1005EE033 /* SignalInfoProvider.swift */,
+				E39C128D23CA461B005EE033 /* SignalInfoFetcher.swift */,
+				E39C128F23CA4656005EE033 /* SignalInfo.swift */,
+				E39C128123CA39BF005EE033 /* SignalLevel.swift */,
+				E39C128523CA3BB9005EE033 /* SignalLevel+SINR.swift */,
+				E39C128723CA3E48005EE033 /* SignalLevel+RSSI.swift */,
+				E39C128923CA3EF4005EE033 /* SignalLevel+RSRQ.swift */,
+				E39C128B23CA3F57005EE033 /* SignalLevel+RSRP.swift */,
+				E39C128323CA3A29005EE033 /* Units.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		E39C12AE23CA8010005EE033 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E39C12A823CA7BF6005EE033 /* SignalLevel+iOS.swift */,
+				E39C12AA23CA7C00005EE033 /* SignalLevel+Mac.swift */,
+				E39C12B123CA8038005EE033 /* InfoView.swift */,
+				E37F7A6E23CAB3ED00FB4A65 /* InfoViewModel.swift */,
+				E39C12B423CA81F4005EE033 /* SignalInfoView.swift */,
+				E37F7A7023CAB40A00FB4A65 /* SignalInfoViewModel.swift */,
+				E39C12B623CA820E005EE033 /* SignalLevelView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E39C124923CA3762005EE033 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C125323CA3762005EE033 /* Huawei4GSignalInfoCore_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C127123CA37F8005EE033 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C127A23CA37F8005EE033 /* Huawei4GSignalInfoCore_Mac.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E39C124D23CA3762005EE033 /* Huawei4GSignalInfoCore-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E39C125623CA3762005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GSignalInfoCore-iOS" */;
+			buildPhases = (
+				E39C124923CA3762005EE033 /* Headers */,
+				E39C124A23CA3762005EE033 /* Sources */,
+				E39C124B23CA3762005EE033 /* Frameworks */,
+				E39C124C23CA3762005EE033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Huawei4GSignalInfoCore-iOS";
+			productName = Huawei4GSignalInfoCore;
+			productReference = E39C124E23CA3762005EE033 /* Huawei4GSignalInfoCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E39C127523CA37F8005EE033 /* Huawei4GSignalInfoCore-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E39C127B23CA37F8005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GSignalInfoCore-Mac" */;
+			buildPhases = (
+				E39C127123CA37F8005EE033 /* Headers */,
+				E39C127223CA37F8005EE033 /* Sources */,
+				E39C127323CA37F8005EE033 /* Frameworks */,
+				E39C127423CA37F8005EE033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Huawei4GSignalInfoCore-Mac";
+			productName = "Huawei4GSignalInfoCore-Mac";
+			productReference = E39C127623CA37F8005EE033 /* Huawei4GSignalInfoCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E39C124523CA3762005EE033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Igor Savelev";
+				TargetAttributes = {
+					E39C124D23CA3762005EE033 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					E39C127523CA37F8005EE033 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = E39C124823CA3762005EE033 /* Build configuration list for PBXProject "Huawei4GSignalInfoCore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E39C124423CA3762005EE033;
+			productRefGroup = E39C124F23CA3762005EE033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E39C124D23CA3762005EE033 /* Huawei4GSignalInfoCore-iOS */,
+				E39C127523CA37F8005EE033 /* Huawei4GSignalInfoCore-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E39C124C23CA3762005EE033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C12A723CA7B53005EE033 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C127423CA37F8005EE033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A29C8123CA87FE00E7EA08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E39C124A23CA3762005EE033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C12B523CA81F4005EE033 /* SignalInfoView.swift in Sources */,
+				E37F7A7123CAB40A00FB4A65 /* SignalInfoViewModel.swift in Sources */,
+				E39C129023CA4656005EE033 /* SignalInfo.swift in Sources */,
+				E39C12B723CA820E005EE033 /* SignalLevelView.swift in Sources */,
+				E39C12B223CA8038005EE033 /* InfoView.swift in Sources */,
+				E37F7A6F23CAB3ED00FB4A65 /* InfoViewModel.swift in Sources */,
+				E39C128C23CA3F57005EE033 /* SignalLevel+RSRP.swift in Sources */,
+				E39C128023CA39B1005EE033 /* SignalInfoProvider.swift in Sources */,
+				E39C128623CA3BB9005EE033 /* SignalLevel+SINR.swift in Sources */,
+				E39C128423CA3A29005EE033 /* Units.swift in Sources */,
+				E39C128823CA3E48005EE033 /* SignalLevel+RSSI.swift in Sources */,
+				E39C12A923CA7BF6005EE033 /* SignalLevel+iOS.swift in Sources */,
+				E39C128E23CA461B005EE033 /* SignalInfoFetcher.swift in Sources */,
+				E39C128223CA39BF005EE033 /* SignalLevel.swift in Sources */,
+				E39C128A23CA3EF4005EE033 /* SignalLevel+RSRQ.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C127223CA37F8005EE033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C129523CA524F005EE033 /* SignalLevel+SINR.swift in Sources */,
+				E37F7A7723CAB46B00FB4A65 /* SignalInfoViewModel.swift in Sources */,
+				E3A29C8223CA890C00E7EA08 /* SignalLevelView.swift in Sources */,
+				E39C12B323CA803B005EE033 /* InfoView.swift in Sources */,
+				E3A29C8323CA924000E7EA08 /* SignalInfoView.swift in Sources */,
+				E37F7A7623CAB46B00FB4A65 /* InfoViewModel.swift in Sources */,
+				E39C129823CA524F005EE033 /* SignalLevel+RSRP.swift in Sources */,
+				E39C129623CA524F005EE033 /* SignalLevel+RSSI.swift in Sources */,
+				E39C129323CA524F005EE033 /* SignalInfo.swift in Sources */,
+				E39C129723CA524F005EE033 /* SignalLevel+RSRQ.swift in Sources */,
+				E39C129123CA524F005EE033 /* SignalInfoProvider.swift in Sources */,
+				E39C129423CA524F005EE033 /* SignalLevel.swift in Sources */,
+				E39C129923CA524F005EE033 /* Units.swift in Sources */,
+				E39C12AC23CA7C03005EE033 /* SignalLevel+Mac.swift in Sources */,
+				E39C129223CA524F005EE033 /* SignalInfoFetcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E39C125423CA3762005EE033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E39C125523CA3762005EE033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E39C125723CA3762005EE033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6KXZX3AW22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Huawei4GSignalInfoCore-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonspok.Huawei4GSignalInfoCore;
+				PRODUCT_NAME = Huawei4GSignalInfoCore;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E39C125823CA3762005EE033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6KXZX3AW22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Huawei4GSignalInfoCore-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonspok.Huawei4GSignalInfoCore;
+				PRODUCT_NAME = Huawei4GSignalInfoCore;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E39C127C23CA37F8005EE033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6KXZX3AW22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Huawei4GSignalInfoCore-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonspok.Huawei4GSignalInfoCore;
+				PRODUCT_NAME = Huawei4GSignalInfoCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E39C127D23CA37F8005EE033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6KXZX3AW22;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Huawei4GSignalInfoCore-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonspok.Huawei4GSignalInfoCore;
+				PRODUCT_NAME = Huawei4GSignalInfoCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E39C124823CA3762005EE033 /* Build configuration list for PBXProject "Huawei4GSignalInfoCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39C125423CA3762005EE033 /* Debug */,
+				E39C125523CA3762005EE033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E39C125623CA3762005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GSignalInfoCore-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39C125723CA3762005EE033 /* Debug */,
+				E39C125823CA3762005EE033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E39C127B23CA37F8005EE033 /* Build configuration list for PBXNativeTarget "Huawei4GSignalInfoCore-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39C127C23CA37F8005EE033 /* Debug */,
+				E39C127D23CA37F8005EE033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E39C124523CA3762005EE033 /* Project object */;
+}
