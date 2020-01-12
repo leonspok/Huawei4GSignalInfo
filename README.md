@@ -6,8 +6,8 @@ Small tool to check 4G signal values from Huawei 4G home router. Tested only on 
 
 ## iOS
 
-![](./README_resources/ios_screenshot.jpeg)
+<img src="./README_resources/ios_screenshot.jpeg" width=200>
 
 ## macOS
 
-![](./README_resources/mac_screenshot.png)
+<img src="./README_resources/mac_screenshot.png">
